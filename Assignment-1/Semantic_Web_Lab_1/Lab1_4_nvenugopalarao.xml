@@ -1,0 +1,244 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <foaf:PersonalProfileDocument rdf:about="http://org.semwebprogramming/chapter2/people">
+    <foaf:maker>
+      <foaf:Person rdf:about="http://org.semwebprogramming/chapter2/people#me">
+        <foaf:name>Navaneeth Rao</foaf:name>
+        <foaf:title>Mr</foaf:title>
+        <foaf:givenname>Navaneeth</foaf:givenname>
+        <foaf:family_name>Rao</foaf:family_name>
+        <foaf:nick>Navaneeth</foaf:nick>
+        <foaf:mbox rdf:resource="mailto:nbv140130@utdallas.edu"/>
+        <foaf:homepage rdf:resource="http://org.semwebprogramming/chapter2/www.utdallas.edu"/>
+        <foaf:depiction rdf:resource="http://org.semwebprogramming/chapter2/student.jpg"/>
+        <foaf:phone rdf:resource="tel:1234567890"/>
+        <foaf:workplaceHomepage rdf:resource="http://www.utdallas.edu"/>
+        <foaf:workInfoHomepage rdf:resource="http://www.utdallas.edu"/>
+        <foaf:schoolHomepage rdf:resource="http://www.utdallas.edu"/>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Matt</foaf:name>
+            <foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.google.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>James</foaf:name>
+            <foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.apple.com"/>
+          </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+          <foaf:Person>
+            <foaf:name>Mark</foaf:name>
+            <foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+            <rdfs:seeAlso rdf:resource="http://org.semwebprogramming/chapter2/www.microsoft.com"/>
+          </foaf:Person>
+        </foaf:knows>
+      </foaf:Person>
+    </foaf:maker>
+    <foaf:primaryTopic rdf:resource="http://org.semwebprogramming/chapter2/people#me"/>
+    <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+    <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+  </foaf:PersonalProfileDocument>
+  <rdf:Description rdf:about="http://utdallas/semclass#KevenAtes">
+    <vcard:FN>Keven L. Ates</vcard:FN>
+    <vcard:BDAY>1901-01-01</vcard:BDAY>
+    <vcard:EMAIL>atescomp@utdallas.edu</vcard:EMAIL>
+    <vcard:TITLE>Senior Lecturer</vcard:TITLE>
+  </rdf:Description>
+</rdf:RDF>

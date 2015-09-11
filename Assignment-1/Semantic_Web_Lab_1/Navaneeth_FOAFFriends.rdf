@@ -1,0 +1,40 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Navaneeth Rao</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Navaneeth</foaf:givenname>
+<foaf:family_name>Rao</foaf:family_name>
+<foaf:nick>Navaneeth</foaf:nick>
+<foaf:mbox rdf:resource="mailto:nbv140130@utdallas.edu"/>
+<foaf:homepage rdf:resource="www.utdallas.edu"/>
+<foaf:depiction rdf:resource="student.jpg"/>
+<foaf:phone rdf:resource="tel:1234567890"/>
+<foaf:workplaceHomepage rdf:resource="http://www.utdallas.edu"/>
+<foaf:workInfoHomepage rdf:resource="http://www.utdallas.edu"/>
+<foaf:schoolHomepage rdf:resource="http://www.utdallas.edu"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Matt</foaf:name>
+<foaf:mbox rdf:resource="mailto:matt@gmail.com"/>
+<rdfs:seeAlso rdf:resource="www.google.com"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>James</foaf:name>
+<foaf:mbox rdf:resource="mailto:james@gmail.com"/>
+<rdfs:seeAlso rdf:resource="www.apple.com"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Mark</foaf:name>
+<foaf:mbox rdf:resource="mailto:mark@utdallas.edu"/>
+<rdfs:seeAlso rdf:resource="www.microsoft.com"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>

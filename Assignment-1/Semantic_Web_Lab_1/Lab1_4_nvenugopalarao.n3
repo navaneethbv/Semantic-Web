@@ -1,0 +1,186 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://org.semwebprogramming/chapter2/people>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <http://org.semwebprogramming/chapter2/people#me> ;
+        foaf:primaryTopic     <http://org.semwebprogramming/chapter2/people#me> .
+
+<http://org.semwebprogramming/chapter2/people#me>
+        a                       foaf:Person ;
+        foaf:depiction          <http://org.semwebprogramming/chapter2/student.jpg> ;
+        foaf:family_name        "Rao" ;
+        foaf:givenname          "Navaneeth" ;
+        foaf:homepage           <http://org.semwebprogramming/chapter2/www.utdallas.edu> ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.google.com> ;
+                                  foaf:mbox     <mailto:matt@gmail.com> ;
+                                  foaf:name     "Matt"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.apple.com> ;
+                                  foaf:mbox     <mailto:james@gmail.com> ;
+                                  foaf:name     "James"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://org.semwebprogramming/chapter2/www.microsoft.com> ;
+                                  foaf:mbox     <mailto:mark@utdallas.edu> ;
+                                  foaf:name     "Mark"
+                                ] ;
+        foaf:mbox               <mailto:nbv140130@utdallas.edu> ;
+        foaf:name               "Navaneeth Rao" ;
+        foaf:nick               "Navaneeth" ;
+        foaf:phone              <tel:1234567890> ;
+        foaf:schoolHomepage     <http://www.utdallas.edu> ;
+        foaf:title              "Mr" ;
+        foaf:workInfoHomepage   <http://www.utdallas.edu> ;
+        foaf:workplaceHomepage  <http://www.utdallas.edu> .
+
+<http://utdallas/semclass#KevenAtes>
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "1901-01-01" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+                "atescomp@utdallas.edu" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Keven L. Ates" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "Senior Lecturer" .
