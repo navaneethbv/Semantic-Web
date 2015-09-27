@@ -1,0 +1,51 @@
+<http://utdallas/semclass/person#AnthonyBurgess>
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://utdallas/semclass/books#ClockworkOrange(Book)> ;
+        <http://purl.org/dc/elements/1.1/type>
+                <http://utdallas/semclass/vocab/person> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+                "Author" .
+
+<http://utdallas/semclass/person#StanleyKubrick>
+        <http://purl.org/dc/elements/1.1/type>
+                <http://utdallas/semclass/vocab/person> ;
+        <http://utdallas/semclass/vocab/movie#director>
+                <http://utdallas/semclass/movies#ClockworkOrange> , <http://utdallas/semclass/movies#DrStrangelove> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Stanley Kubrick" .
+
+<http://utdallas/semclass/person#PeterGeorge>
+        <http://purl.org/dc/elements/1.1/type>
+                <http://utdallas/semclass/vocab/person> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+                "Author" .
+
+<http://utdallas/semclass/movies#DrStrangelove>
+        <http://purl.org/dc/elements/1.1/source>
+                <http://utdallas/semclass/books#RedAlert> ;
+        <http://purl.org/dc/elements/1.1/type>
+                <http://utdallas/semclass/vocabu/movie> ;
+        <http://utdallas/semclass/vocab/movie#title>
+                <http://utdallas/semclass/movies#DrStrangelove> ;
+        <http://utdallas/semclass/vocab/movie#year>
+                "1964" .
+
+<http://utdallas/semclass/books#ClockworkOrange(Book)>
+        <http://purl.org/dc/elements/1.1/type>
+                <http://utdallas/semclass/book> .
+
+<http://utdallas/semclass/movies#ClockworkOrange>
+        <http://purl.org/dc/elements/1.1/source>
+                <http://utdallas/semclass/books#ClockworkOrange(Book)> ;
+        <http://purl.org/dc/elements/1.1/type>
+                <http://utdallas/semclass/vocabu/movie> ;
+        <http://utdallas/semclass/vocab/movie#title>
+                <http://utdallas/semclass/movies#ClockworkOrange> ;
+        <http://utdallas/semclass/vocab/movie#year>
+                "1972" .
+
+<http://utdallas/semclass/books#RedAlert>
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://utdallas/semclass/person#PeterGeorge> ;
+        <http://purl.org/dc/elements/1.1/type>
+                <http://utdallas/semclass/book> .

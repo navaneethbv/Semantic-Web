@@ -1,0 +1,44 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+	xmlns:j.0="http://utdallas/semclass/vocab/movie#">
+	<rdf:Description rdf:about="http://utdallas/semclass/person#StanleyKubrick">
+		<dc:type rdf:resource="http://utdallas/semclass/vocab/person" />
+		<j.0:director>
+			<rdf:Description rdf:about="http://utdallas/semclass/movies#ClockworkOrange">
+				<dc:source>
+					<rdf:Description
+						rdf:about="http://utdallas/semclass/books#ClockworkOrange(Book)">
+						<dc:type rdf:resource="http://utdallas/semclass/book" />
+					</rdf:Description>
+				</dc:source>
+				<j.0:title rdf:resource="http://utdallas/semclass/movies#ClockworkOrange" />
+				<j.0:year>1972</j.0:year>
+				<dc:type rdf:resource="http://utdallas/semclass/vocabu/movie" />
+			</rdf:Description>
+		</j.0:director>
+		<j.0:director>
+			<rdf:Description rdf:about="http://utdallas/semclass/movies#DrStrangelove">
+				<dc:source>
+					<rdf:Description rdf:about="http://utdallas/semclass/books#RedAlert">
+						<dc:creator>
+							<rdf:Description rdf:about="http://utdallas/semclass/person#PeterGeorge">
+								<vcard:ROLE>Author</vcard:ROLE>
+								<dc:type rdf:resource="http://utdallas/semclass/vocab/person" />
+							</rdf:Description>
+						</dc:creator>
+						<dc:type rdf:resource="http://utdallas/semclass/book" />
+					</rdf:Description>
+				</dc:source>
+				<j.0:title rdf:resource="http://utdallas/semclass/movies#DrStrangelove" />
+				<j.0:year>1964</j.0:year>
+				<dc:type rdf:resource="http://utdallas/semclass/vocabu/movie" />
+			</rdf:Description>
+		</j.0:director>
+		<vcard:FN>Stanley Kubrick</vcard:FN>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://utdallas/semclass/person#AnthonyBurgess">
+		<dc:creator rdf:resource="http://utdallas/semclass/books#ClockworkOrange(Book)" />
+		<vcard:ROLE>Author</vcard:ROLE>
+		<dc:type rdf:resource="http://utdallas/semclass/vocab/person" />
+	</rdf:Description>
+</rdf:RDF>
