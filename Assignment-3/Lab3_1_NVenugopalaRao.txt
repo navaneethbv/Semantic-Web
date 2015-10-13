@@ -1,0 +1,30 @@
+#Query 1
+select ?subject where
+{ ?subject <http://www.w3.org/2001/vcard-rdf/3.0#FN> "John Smith" . }
+
+#Query 2
+select ?age where
+{ ?subject <http://somewhere/peopleInfo#age> ?age .
+  filter ( !isBlank(?age) ) }
+
+#Query 3
+select ?fullName ?age where
+{ ?subject <http://www.w3.org/2001/vcard-rdf/3.0#FN> ?fullName ;
+           <http://somewhere/peopleInfo#age> ?age .
+  filter ( !isBlank(?age) )
+  filter ( !isBlank(?fullName) ) }
+  
+#Query 4
+select ?fullName ?age where
+{ ?subject <http://www.w3.org/2001/vcard-rdf/3.0#FN> ?fullName ;
+           <http://somewhere/peopleInfo#age> ?age .
+  filter ( ?age = "23" ) }
+  
+#Query 5
+select ?given where
+{ ?name <http://www.w3.org/2001/vcard-rdf/3.0#Given> ?given .
+  ?subject <http://www.w3.org/2001/vcard-rdf/3.0#FN> ?fullname ;
+           <http://www.w3.org/2001/vcard-rdf/3.0#N> ?name ;
+           <http://somewhere/peopleInfo#age> ?age .
+  filter ( !isBlank(?age) )
+  filter ( !isBlank(?fullname) ) }

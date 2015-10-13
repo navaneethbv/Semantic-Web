@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="p"/>
+    <variable name="o"/>
+  </head>
+  <results>
+    <result>
+      <binding name="p">
+        <uri>http://purl.org/dc/elements/1.1/identifier</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">incident</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="o">
+        <uri>urn:monterey:incident</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://ebiquity.umbc.edu/ontology/event.owl#startDate</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">1999-03-04</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://www.w3.org/2001/vcard-rdf/3.0#ADR</uri>
+      </binding>
+      <binding name="o">
+        <bnode>b0</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://purl.org/dc/elements/1.1/source</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">[A] "Lumberton Dialysis Clinic Targeted With Anthrax Scare," The News  Observer On The Web (5 March 1999); Internet, available at http://www.news-observer.com, accessed on 3/5/99.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#incidentDescription</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">An unidentified perpetrator called the Lumberton, North Carolina emergency communications center on 4 March 1999 and claimed that anthrax bacteria had been released in the Lumberton Dialysis Clinic. The city manager, Todd Powell, received the call. 40 people at the clinic were detained for three hours, most of whom were patients. Officials investigated the scene and instructed patients on self-decontamination procedures. According to FBI Spokeswoman Joanne Morley, a similar message was found written on a sheet of paper in the clinic's mailbox. Powell said at the time of the incident that officials had no evidence or indication that the claim was genuine.[A]</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#SUSPECTED</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#LAST_MODIFIED</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">2005-08-08 11:03:29</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_GOVT</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_AGRO</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#MISC_INFO</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">No further information available.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_BUS</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#G_SUSPECTED</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_INCIDENT</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Type 2: Criminally Motivated</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_ED</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_ORG</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_UNK</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#REGION</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">USA and Canada</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_EVENT</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Hoax/Prank</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#injuries</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_INDISCRIM</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#fatalities</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_MED</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#CREATED</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">2003-07-08 00:00:00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#target</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Dialysis clinic</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#AGENT</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">bacillus anthracis</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#CBRN</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">biological</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_IND</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="p">
+        <uri>http://blackbook.com/terms#STAT_TGT_NA</uri>
+      </binding>
+      <binding name="o">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#string">0</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>
