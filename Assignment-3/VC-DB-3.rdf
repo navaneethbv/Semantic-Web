@@ -7,7 +7,7 @@
    >
 
   <rdf:Description rdf:about="http://somewhere/JohnSmith">
-    <vCard:FN>John Smith</vCard:FN>
+    <vCard:FN>John Smith</vCard:FN> 
     <info:age>25</info:age>
     <vCard:N rdf:parseType="Resource">
       <vCard:Family>Smith</vCard:Family>
