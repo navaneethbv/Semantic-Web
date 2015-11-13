@@ -10,7 +10,7 @@
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]> 
 
-
+ 
 <rdf:RDF xmlns="http://utdallas.semtech/class#"
      xml:base="http://utdallas.semtech/class"
      xmlns:sc="http://utdallas.semtech/class#"
