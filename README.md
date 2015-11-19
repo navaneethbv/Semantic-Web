@@ -1,2 +1,2 @@
 # Semantic-Web
-Assignments
+Class Assignments
