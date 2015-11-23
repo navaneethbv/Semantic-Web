@@ -24,7 +24,7 @@
     <Import>http://xmlns.com/foaf/0.1/</Import>
     <Declaration>
         <Class IRI="sc:Person"/>
-    </Declaration>
+    </Declaration> 
     <Declaration>
         <Class IRI="sc:title"/>
     </Declaration>
