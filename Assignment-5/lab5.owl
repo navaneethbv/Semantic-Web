@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
  
-   
+    
 <!DOCTYPE rdf:RDF [ 
     <!ENTITY vc "http://nwalsh.com/rdf/vCard#" >
     <!ENTITY sc "http://utdallas.semtech/class#" >
