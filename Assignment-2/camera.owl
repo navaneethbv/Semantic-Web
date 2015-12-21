@@ -6,7 +6,7 @@
 	 xmlns:camera="http://www.xfront.com/owl/ontologies/camera/#"
 	 xml:base="http://www.xfront.com/owl/ontologies/camera/">  
  
-    <owl:Ontology>
+    <owl:Ontology> 
         <rdfs:comment>
         Camera OWL Ontology                           
                                                                   
