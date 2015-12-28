@@ -10,7 +10,7 @@
     <vCard:FN>John Smith</vCard:FN> 
     <info:age>25</info:age>
     <vCard:N rdf:parseType="Resource">
-      <vCard:Family>Smith</vCard:Family>
+      <vCard:Family>Smith</vCard:Family> 
       <vCard:Given>John</vCard:Given>
     </vCard:N>
     <vCard:TEL rdf:parseType="Resource">
