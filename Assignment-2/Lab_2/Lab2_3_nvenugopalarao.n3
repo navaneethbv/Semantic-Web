@@ -3,7 +3,7 @@
                 <http://utdallas/semclass/books#ClockworkOrange(Book)> ;
         <http://purl.org/dc/elements/1.1/type>
                 <http://utdallas/semclass/vocab/person> ;
-        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE> 
                 "Author" .
 
 <http://utdallas/semclass/person#StanleyKubrick>
