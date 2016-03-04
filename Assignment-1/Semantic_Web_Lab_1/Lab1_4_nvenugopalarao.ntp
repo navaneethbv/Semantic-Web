@@ -4,7 +4,7 @@
 <http://org.semwebprogramming/chapter2/people> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
 <http://org.semwebprogramming/chapter2/people> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .  
 <http://org.semwebprogramming/chapter2/people#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/name> "Navaneeth Rao" . 
+<http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/name> "Navaneeth Rao" .  
 <http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
 <http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/givenname> "Navaneeth" .
 <http://org.semwebprogramming/chapter2/people#me> <http://xmlns.com/foaf/0.1/family_name> "Rao" .
