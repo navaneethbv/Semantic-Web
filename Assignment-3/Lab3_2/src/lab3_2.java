@@ -12,9 +12,11 @@ import org.apache.jena.query.ResultSetFormatter;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.tdb.TDBFactory;
 import org.apache.jena.util.FileManager;
+
 /**
  * @author Navaneeth.Rao
  */
+ 
 public class lab3_2 {
 	public static void main(final String[] args) {
 		org.apache.log4j.Logger.getRootLogger()
