@@ -9,6 +9,7 @@ import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.ReadWrite;  
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.query.ResultSetFormatter;
+
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.tdb.TDBFactory;
 import org.apache.jena.util.FileManager;
