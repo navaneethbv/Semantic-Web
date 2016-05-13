@@ -2,7 +2,7 @@
 <!-- Processed by Id: cwm.py,v 1.148 2004/03/21 04:24:32 timbl Exp -->
 <!--     using base file:/home/ndw/hiptop/rdf/vcard.ont-->
 
-<rdf:RDF xmlns:cc="http://web.resource.org/cc/"
+<rdf:RDF xmlns:cc="http://web.resource.org/cc/" 
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:vc="http://nwalsh.com/rdf/vCard#"
     xmlns:owl="http://www.w3.org/2002/07/owl#" 
