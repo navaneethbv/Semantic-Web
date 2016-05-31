@@ -26,6 +26,7 @@ public class lab3_2 {
 		// Make a TDB-backed dataset
 		final String directory = "MyDatabases/";
 		final Dataset dataset = TDBFactory.createDataset(directory + "Dataset1");
+		
 		// create an empty Model
 		final Model model = dataset.getDefaultModel();
 		// Load Monterey and record time
