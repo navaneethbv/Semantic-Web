@@ -22,6 +22,7 @@ public class lab3_2 {
 	public static void main(final String[] args) {
 		org.apache.log4j.Logger.getRootLogger()
 		.setLevel(org.apache.log4j.Level.OFF);
+		
 		// Make a TDB-backed dataset
 		final String directory = "MyDatabases/";
 		final Dataset dataset = TDBFactory.createDataset(directory + "Dataset1");
