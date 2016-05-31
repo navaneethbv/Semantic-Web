@@ -29,6 +29,7 @@ public class lab3_2 {
 		
 		// create an empty Model
 		final Model model = dataset.getDefaultModel();
+		
 		// Load Monterey and record time
 		final double start = System.currentTimeMillis();
 		final String file = "Monterey.rdf";
