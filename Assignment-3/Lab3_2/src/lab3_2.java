@@ -35,6 +35,7 @@ public class lab3_2 {
 		final String file = "Monterey.rdf";
 		FileManager.get().readModel(model, file);
 		final double end = System.currentTimeMillis();
+		
 		// Display the time taken
 		final double time = (end - start) / 1000.0;
 		System.out.println(String.format("Load of %s took %.1f seconds", file, time));
