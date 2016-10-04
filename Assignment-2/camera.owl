@@ -4,7 +4,7 @@
 	 xmlns:owl="http://www.w3.org/2002/07/owl#"  
 	 xmlns="http://www.xfront.com/owl/ontologies/camera/#" 
 	 xmlns:camera="http://www.xfront.com/owl/ontologies/camera/#"
-	 xml:base="http://www.xfront.com/owl/ontologies/camera/">  
+	 xml:base="http://www.xfront.com/owl/ontologies/camera/"> 
  
     <owl:Ontology> 
         <rdfs:comment>
