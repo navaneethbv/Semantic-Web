@@ -6,7 +6,7 @@
   xmlns:info='http://somewhere/peopleInfo#'
    >
 
-  <rdf:Description rdf:about="http://somewhere/JohnSmith">
+  <rdf:Description rdf:about="http://somewhere/JohnSmith"> 
     <vCard:FN>John Smith</vCard:FN> 
     <info:age>25</info:age>
     <vCard:N rdf:parseType="Resource">
