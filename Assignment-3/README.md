@@ -1,3 +1,9 @@
-1. To run the program, import the folder Lab3_2 into the eclipse workspace and execute the file Lab_2.java into src. (I have included the jar files in the folders. If only the java file is copied, make sure to import the jar files to run jena and to create a MyDatabases folder).
-2. The output files will be generated in the xml format.
-  
+# Assignment 3
+
+Import the `Lab3_2` folder into Eclipse and run `src/lab3_2.java` using its `lab3_2` entry point.
+`Lab_2.java` belongs to Assignment 2.
+
+Retain the project's bundled Jena dependencies and make `Monterey.rdf` available in the working directory.
+The program opens a local TDB store under `MyDatabases/Dataset1` and writes query results as XML.
+Check the source for output filenames and ensure the selected working directory is writable.
+These instructions describe the committed historical project; current Jena compatibility has not been established.
